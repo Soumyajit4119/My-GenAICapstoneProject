@@ -23,14 +23,11 @@ Unlike traditional machine learning solutions, this project does **not require a
 ## 📂 Project Structure
 
 ```
-📁 Daily-Journal-Analyzer/
+📁 My-GenAiCapstoneProject/
 │
-├── my-genai-capstone-project.ipynb        # The main Jupyter notebook
-├── requirements.txt                       # Required Python packages with versions
-├── sample_entries.txt                     # Sample journal entries for testing
-├── sample_output.json                     # Example output from the model
-├── assets/
-│   └── banner.png                         # Optional: Banner image for README or LinkedIn
+├── my-genaicapstoneproject.ipynb        # The main Jupyter notebook
+├── requirements.txt                     # Required Python packages with versions
+
 ```
 
 <br>
@@ -72,8 +69,8 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/daily-journal-analyzer.git
-   cd daily-journal-analyzer
+   git clone https://github.com/Soumyajit4119/My-GenAiCapstoneProject.git
+   cd My-GenAiCapstoneProject
    ```
 
 2. **Install dependencies**  
@@ -88,18 +85,32 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
    Run `my-genai-capstone-project.ipynb` on [Kaggle Kernels](https://www.kaggle.com/code) or Jupyter.
 
 5. **(Optional)** Uncomment the sample simulation cell to preload journal history and visualize mood trends.
+   ```python
+    sample_journal_texts = [
+      "Had a productive morning but felt overwhelmed by college deadlines.",
+      "Went out with friends after a long time. Felt good and relaxed.",
+      "Couldn’t sleep well last night. Mind was restless and I kept overthinking.",
+      "Completed most of my tasks today. Feeling accomplished and calm.",
+      "Felt anxious and irritable all day for no clear reason.",
+      "Spent the afternoon reading and enjoying the quiet. It helped me feel centered."
+   ]
+    ```
 
 <br>
 
 ## 📊 Example Output
+```entry = "I couldn’t focus at all. Everything feels off, and I’m getting anxious about the upcoming exams."```
 
 ```json
 {
-  "mood": "positive",
-  "emotional_tone": "relieved and joyful",
-  "stress_level": "low",
-  "keywords": ["friends", "relaxed", "social outing"],
-  "confidence": 0.92
+  "mood": "negative",
+  "emotional_tone": "anxious",
+  "confidence": 0.87,
+  "stress_level": "High",
+  "self_reflection": "User recognizes their struggle with focus and anxiety, indicating self-awareness.",
+  "keywords": ["focus", "anxious", "exams"],
+  "key_thoughts": "User is feeling overwhelmed and stressed about academics.",
+  "suggestions": "Take short breaks, practice deep breathing, and focus on one task at a time."
 }
 ```
 
