@@ -1,3 +1,5 @@
+<img src="assets/banner.png" alt="linkedin banner" width=70%>
+
 # A GenAI-Powered Mental Health Assistant 🤖
 
 Welcome to **Daily Journal Analyzer**, a Generative AI-powered mental wellness assistant that helps you reflect, track, and grow through intelligent journal analysis. Designed as part of my capstone project for the Gen AI Intensive Course, this tool blends emotional awareness with cutting-edge GenAI to make journaling a more insightful and helpful experience.
@@ -27,6 +29,8 @@ Unlike traditional machine learning solutions, this project does **not require a
 │
 ├── my-genaicapstoneproject.ipynb        # The main Jupyter notebook
 ├── requirements.txt                     # Required Python packages with versions
+├── assets/
+│   └── banner.png                         # Optional: Banner image for README or LinkedIn
 
 ```
 
