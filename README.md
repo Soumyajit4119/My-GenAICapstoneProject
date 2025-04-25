@@ -1,4 +1,5 @@
-<img src="assets/banner.png" alt="linkedin banner" width=70%>
+<a href="https://www.linkedin.com/posts/soumyajit4119_genai-capstoneproject-mentalhealthmatters-activity-7319930896139063297-XDRZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4UacEBbRVPjQfgQ7U17qu9DZGoXfe-D1Y"><img src="assets/banner_linkedin.png" alt="Linkedin banner" width=60%></a>
+<a href="https://medium.com/@soumyajit302/harnessing-generative-ai-for-mental-health-support-my-capstone-journey-d386136e0f2a"><img src="assets/banner_medium.png" alt="Medium banner" width=23%></a>
 
 # A GenAI-Powered Mental Health Assistant 🤖
 
@@ -30,7 +31,8 @@ Unlike traditional machine learning solutions, this project does **not require a
 ├── my-genaicapstoneproject.ipynb        # The main Jupyter notebook
 ├── requirements.txt                     # Required Python packages with versions
 ├── assets/
-│   └── banner.png                         # Optional: Banner image for README or LinkedIn
+│   └── banner_linkedin.png              # Banner image of Linkedin 
+|   └── banner_medium.png                # Banner image of Medium
 
 ```
 
