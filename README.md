@@ -1,11 +1,11 @@
-<a href="https://www.linkedin.com/posts/soumyajit4119_genai-capstoneproject-mentalhealthmatters-activity-7319930896139063297-XDRZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4UacEBbRVPjQfgQ7U17qu9DZGoXfe-D1Y"><img src="assets/banner_linkedin.png" alt="Linkedin banner" width=60%></a>
-<a href="https://medium.com/@soumyajit302/harnessing-generative-ai-for-mental-health-support-my-capstone-journey-d386136e0f2a"><img src="assets/banner_medium.png" alt="Medium banner" width=23%></a>
-
 # A GenAI-Powered Mental Health Assistant 🤖
 
 Welcome to **Daily Journal Analyzer**, a Generative AI-powered mental wellness assistant that helps you reflect, track, and grow through intelligent journal analysis. Designed as part of my capstone project for the Gen AI Intensive Course, this tool blends emotional awareness with cutting-edge GenAI to make journaling a more insightful and helpful experience.
 
-<br>
+## 🔰 Banners (Linkedin & Medium)
+<a href="https://www.linkedin.com/posts/soumyajit4119_genai-capstoneproject-mentalhealthmatters-activity-7319930896139063297-XDRZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4UacEBbRVPjQfgQ7U17qu9DZGoXfe-D1Y"><img src="assets/banner_linkedin.png" alt="Linkedin banner" width=60%></a>
+<a href="https://medium.com/@soumyajit302/harnessing-generative-ai-for-mental-health-support-my-capstone-journey-d386136e0f2a"><img src="assets/banner_medium.png" alt="Medium banner" width=23%></a>
+
 
 ## 🚀 Project Overview
 
@@ -21,8 +21,6 @@ Unlike traditional machine learning solutions, this project does **not require a
 
 > 💡 **Note:** This project is intended for educational use and self-reflection. It is **not a substitute for professional mental health support.**
 
-<br>
-
 ## 📂 Project Structure
 
 ```
@@ -30,16 +28,14 @@ Unlike traditional machine learning solutions, this project does **not require a
 │
 ├── my-genaicapstoneproject.ipynb        # The main Jupyter notebook
 ├── requirements.txt                     # Required Python packages with versions
-├── assets/
-│   └── banner_linkedin.png              # Banner image of Linkedin 
-|   └── banner_medium.png                # Banner image of Medium
+└── assets/
+    ├── banner_linkedin.png              # Banner image of Linkedin 
+    └── banner_medium.png                # Banner image of Medium
 
 ```
 
-<br>
-
-## 🧪 Features
-Specifically, this Ai powered assistant will:
+## 🌟 Features
+Specifically, this Ai powered assistant will : --
 
 - Accept **natural language journal entries** as input  
 - Use **few-shot prompting** to guide Gemini’s understanding of emotions  
@@ -54,8 +50,6 @@ Specifically, this Ai powered assistant will:
 
 The tool demonstrates how **Generative AI** can be used as a supportive mental wellness assistant, even with zero external data and minimal coding effort — making it accessible and practical for real-world use.
 
-<br>
-
 ## 🧠 **GenAI Capabilities Used**
 
 This project demonstrates the practical use of multiple Generative AI capabilities, integrated seamlessly using Google’s Gemini API:
@@ -68,8 +62,6 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
 | **Long Context Window**           | Gemini can process long journal entries while preserving coherence in the analysis.                                    |
 
 ⚠️ Note: While **Embeddings**, **Vector Search**, or **RAG** are not used in this project, the architecture can be extended to include them in future iterations (e.g., tracking mood trends over time).
-
-<br>
 
 ## 📌 How to Use
 
@@ -102,8 +94,6 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
    ]
     ```
 
-<br>
-
 ## 📊 Example Output
 ```entry = "I couldn’t focus at all. Everything feels off, and I’m getting anxious about the upcoming exams."```
 
@@ -120,8 +110,6 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
 }
 ```
 
-<br>
-
 ## 🔮 Future Updates
 
 - Personalized coping suggestions based on recurring patterns
@@ -129,8 +117,7 @@ This project demonstrates the practical use of multiple Generative AI capabiliti
 - Secure cloud storage for cross-device journaling
 - Recommendations of mental health resources
 
-<br>
-
 ## 📜 License
 
 This project is for educational purposes. All AI analysis is intended to assist with self-reflection and is not professional mental health advice.
+--
